@@ -25,7 +25,7 @@ export default function Intro() {
 
 					<Box textAlign="left" my={`${spacing}px`}>
 						<Image
-							maxW="300px"
+							Width="300px"
 							src="/a.png"
 							alt="bob the builder lol"
 							display={{ base: "block", md: "block" }}
