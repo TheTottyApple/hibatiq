@@ -13,7 +13,7 @@ export default function Intro() {
 						<Heading>
 							A solution for your construction needs
 						</Heading>
-						<Text my="10px" >
+						<Text my="10px">
 							HibatIQ specializes in construction, electrical, and
 							mechanical works. Some of our projects inclde
 							schools, WTPS, roads, and pipelines.
@@ -25,7 +25,7 @@ export default function Intro() {
 
 					<Box textAlign="left" my={`${spacing}px`}>
 						<Image
-							maxW="200px"
+							maxW="300px"
 							src="/a.png"
 							alt="bob the builder lol"
 							display={{ base: "block", md: "block" }}

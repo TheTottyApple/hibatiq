@@ -4,11 +4,11 @@ import { extendTheme } from "@chakra-ui/react";
 const theme = extendTheme({
 	colors: {
 		brand: {
-			transparent: "rgba(255,255,255,0.3)",
-			transparent2: "rgba(255,255,255,0.6)",
+			transparent: "#ffffff0",
+			transparent2: "#ffffff14",
 			red: "#ba2026",
 
-			gold: "#ffffff",
+			gold: "#ffd470",
 			gold2: "#dab050",
 
 			yellow: "#ffd470",
@@ -50,7 +50,8 @@ const theme = extendTheme({
 					"Montserrat-Regular, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
 				textAlign: "center",
 				background:
-					"#fe6c6c linear-gradient(180deg, #ad5a5a 0%, #fe6c6c 20%, #ffa7a7 80%, #ffc5c5 100%)",
+					// "#fe6c6c linear-gradient(180deg, #ad5a5a 0%, #fe6c6c 20%, #850101 80%, #ad1010 100%)",
+					"#ba2026",
 				backgroundSize: "cover",
 				backgroundPosition: "center",
 				backgroundRepeat: "no-repeat",
@@ -66,7 +67,7 @@ const theme = extendTheme({
 				listStyle: "none",
 			},
 			h1: {
-				color: "#000000",
+				color: "#ffd470",
 			},
 			h2: {
 				color: "#ffd470",
