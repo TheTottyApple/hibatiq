@@ -1,16 +1,8 @@
-import {
-	Box,
-	Flex,
-	Heading,
-	Text,
-	useToken,
-	Stack,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, useToken } from "@chakra-ui/react";
 import Container from "@components/container";
 import ContainerInside from "@components/containerInside";
 import NextLink from "@components/nextChakra";
 import Wave from "react-wavify";
-
 
 // eslint-disable-next-line import/no-default-export
 export default function Footer(): JSX.Element {
@@ -35,8 +27,7 @@ export default function Footer(): JSX.Element {
 						justify="space-between"
 						flexDir={{ base: "column", sm: "row" }}
 						textAlign={{ base: "center", md: "left" }}
-					>
-					</Flex>
+					></Flex>
 				</ContainerInside>
 			</Container>
 			<Container bg="brand.red" py="10px">
@@ -46,9 +37,7 @@ export default function Footer(): JSX.Element {
 						align="center"
 						color="text.200"
 					>
-						<Text>
-							HibatIQ © 2021 All Rights Reserved
-						</Text>
+						<Text>HibatIQ © 2021 All Rights Reserved</Text>
 						<Text>
 							<NextLink href="https://github.com/TheTottyApple/HibatIQ">
 								Made with ❤️ by passionate developers
@@ -60,4 +49,3 @@ export default function Footer(): JSX.Element {
 		</Box>
 	);
 }
- 
