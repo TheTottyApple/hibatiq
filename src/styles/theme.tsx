@@ -6,12 +6,9 @@ const theme = extendTheme({
 		brand: {
 			transparent: "rgba(255,255,255,0.3)",
 			transparent2: "rgba(255,255,255,0.6)",
-			purple: {
-				light: "#DD2D4A",
-				dark: "#DD2D4A",
-			},
+			red: "#ba2026",
 
-			gold: "#fcd270",
+			gold: "#ffffff",
 			gold2: "#dab050",
 
 			yellow: "#ffd470",
@@ -53,7 +50,12 @@ const theme = extendTheme({
 					"Montserrat-Regular, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
 				textAlign: "center",
 				background:
-					"#334139DDE0BD linear-gradient(90deg, #334139 0%, #334139 100%)",
+					"#fe6c6c linear-gradient(180deg, #ad5a5a 0%, #fe6c6c 20%, #ffa7a7 80%, #ffc5c5 100%)",
+				backgroundSize: "cover",
+				backgroundPosition: "center",
+				backgroundRepeat: "no-repeat",
+				backgroundAttachment: "fixed",
+
 				color: "white",
 			},
 			a: {
@@ -64,7 +66,7 @@ const theme = extendTheme({
 				listStyle: "none",
 			},
 			h1: {
-				color: "#ffd470",
+				color: "#000000",
 			},
 			h2: {
 				color: "#ffd470",
